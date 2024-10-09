@@ -16,5 +16,4 @@ public interface JwtService {
 
 
     String generateToken(String username);
-    String validateToken(final String token);
 }
